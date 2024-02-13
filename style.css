@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+}
+
+
+body {
+    font-family: 'oufit'; font-size: 15px;
+    background-color:hsl(30, 18%, 87%);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+main {
+max-width: 600px;
+    max-height: 100%;
+    border: 1px;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+     padding: 2rem;
+     white-space:normal ;
+}
+
+img {
+    max-width: 100%;
+    border: 1px;
+    border-radius: 9px;
+}
+
+section p {
+    font-family: "oufit",young serif;
+    font-size: 16px;
+}
+
+article h4 {
+    color: hsl(14, 90%, 45%);
+    margin: 0;
+    padding-inline: 25px;
+}
+
+.Preparation-time {
+    padding: 9px;
+    background-color: hsl(30, 18%, 87%);
+    border-radius: 9px;
+    line-height: 2;
+}
+
+ul span {
+    font-weight: 900;
+}
+
+ul li {
+    padding-left: 9px;
+}
+
+
+
+.Preparation_details {
+    margin: 0;
+    padding-inline: 2rem;
+    padding-left: 9p;
+}
+
+
+.Ingredients {
+    color: hsl(14, 42%, 39%);
+padding-left: 1rem;
+    font-size: 1.5rem;
+margin-bottom: 0;
+}
+
+
+
+.Ingredients-items,ul {
+    line-height: 2;
+    font-weight: 500;
+    margin: 0;
+    padding-inline-start: 9px;
+}
+
+ li::marker{
+    color: hsl(14, 42%, 39%);
+}
+
+
+h2 {
+    padding-inline: ;
+    color: hsl(14, 42%, 39%);
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+gap: 8px;
+word-break: break-all;
+margin: 0;
+line-height: 1.2;
+padding-inline: 1rem;
+max-width: 100%;
+}
+
+ol li {
+    padding-left: 1rem;
+}
+
+ol li:before {
+    color: rgb(85, 14, 14);
+}
+
+
+ol span {
+    font-weight: 900;
+}
+
+.nutrition {
+font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(129, 7, 7);
+    
+}
+
+article div {
+    display: flex;
+    padding-inline: 2rem;
+    padding-block: 4px;
+    gap: 19rem;
+
+}
+
+ article div span {
+color: rgb(129, 7, 7);
+font-weight: 700;
+
+}
+
+hr {
+}
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
