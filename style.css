@@ -1,10 +1,10 @@
 * {
     padding: 0;
+    font-family: 'outfit', serif;
 }
 
 
 body {
-    font-family: 'oufit'; font-size: 15px;
     background-color:hsl(30, 18%, 87%);
     font-size: 16px;
     margin: 0;
@@ -54,6 +54,8 @@ ul span {
     font-weight: 900;
 }
 
+
+
 ul li {
     padding-left: 9px;
 }
@@ -85,6 +87,7 @@ margin-bottom: 0;
 
  li::marker{
     color: hsl(14, 42%, 39%);
+    font-weight: 700;
 }
 
 
